@@ -1,0 +1,3 @@
+preferences.d/10-adishatz /etc/apt/preferences.d/
+sources.list.d/adishatz.sources /usr/share/droidian-apt-config/sources.list.d/
+trusted.gpg.d/adishatz.asc /etc/apt/trusted.gpg.d/

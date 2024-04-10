@@ -1,0 +1,5 @@
+debian/files
+debian/debhelper-build-stamp
+debian/.debhelper/
+debian/miatoll-apt-config
+debian/miatoll-apt-config.substvars

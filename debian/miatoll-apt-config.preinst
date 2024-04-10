@@ -1,0 +1,14 @@
+#!/bin/sh
+set -e
+
+upgrade() {
+	# Remove "extrepo" repositories and keys
+    rm -f /var/lib/extrepo/keys/adishatz.asc
+	rm -f /etc/apt/sources.list.d/extrepo_adishatz.sources
+}
+
+case "$1" in
+	"upgrade")
+		upgrade
+		;;
+esac
