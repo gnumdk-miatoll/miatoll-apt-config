@@ -21,7 +21,7 @@ Package: adishatz-apt-config-preview
 Architecture: all
 Pre-Depends: apt
 Depends: ${misc:Depends}
-Description: APT configurations for Droidian (preview-packages)
+Description: APT configurations for Droidian (preview packages)
  This package contains various APT configurations and Pins
  for miatoll.
 
@@ -29,6 +29,6 @@ Package: adishatz-apt-config-test
 Architecture: all
 Pre-Depends: apt
 Depends: ${misc:Depends}
-Description: APT configurations for Droidian (test packages)
+Description: APT configurations for Droidian (unstable packages)
  This package contains various APT configurations and Pins
  for miatoll.
