@@ -16,3 +16,19 @@ Replaces: hybris-mobian-apt-config (<< 10+git20210324000000), miatoll-apt-config
 Description: APT configurations for Droidian
  This package contains various APT configurations and Pins
  for miatoll.
+
+Package: adishatz-apt-config-preview
+Architecture: all
+Pre-Depends: apt
+Depends: ${misc:Depends}
+Description: APT configurations for Droidian (preview-packages)
+ This package contains various APT configurations and Pins
+ for miatoll.
+
+Package: adishatz-apt-config-test
+Architecture: all
+Pre-Depends: apt
+Depends: ${misc:Depends}
+Description: APT configurations for Droidian (test packages)
+ This package contains various APT configurations and Pins
+ for miatoll.

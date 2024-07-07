@@ -3,7 +3,7 @@ set -e
 
 upgrade() {
 	# Remove "extrepo" repositories and keys
-    rm -f /var/lib/extrepo/keys/adishatz.asc
+	rm -f /var/lib/extrepo/keys/adishatz.asc
 	rm -f /etc/apt/sources.list.d/extrepo_adishatz.sources
 }
 

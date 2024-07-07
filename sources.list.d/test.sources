@@ -1,0 +1,6 @@
+Architectures: arm64
+Components: test
+Suites: sid
+Uris: http://adishatz.org/apt
+Types: deb
+Signed-By: /etc/apt/trusted.gpg.d/adishatz.asc
